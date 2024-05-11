@@ -21,9 +21,12 @@ const Sidebar = () => {
                         <img src={assets.stack_icon} alt="" className="w-8" />
                         <p className="font-semibold">Your library</p>
                     </div>
-                    <div className="flex items-center gap-3">
-                        <img src={assets.arrow_icon} alt="" className="w-5" />
-                        <img src={assets.plus_icon} alt="" className="w-5" />
+                    <div className="p-2 w-8 h-8 relative rounded-full hover:bg-[#2e2e2e75] cursor-pointer transition-all duration-200 ease-linear">
+                        <img
+                            src={assets.plus_icon}
+                            alt=""
+                            className="w-4 absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10"
+                        />
                     </div>
                 </div>
                 <div className="mx-2 my-4 px-4 py-4 bg-[#242424] rounded font-semibold flex flex-col items-start gap-1">
@@ -31,7 +34,7 @@ const Sidebar = () => {
                     <p className="font-extralight">
                         it's easy we will help you
                     </p>
-                    <button className="px-4 py-1.5 bg-white text-black text-[15px] rounded-full mt-4">
+                    <button className="px-4 py-1.5 bg-white text-black text-[15px] rounded-full mt-4 hover:scale-[1.05] transition-transform duration-200 ease-linear">
                         Create playlist
                     </button>
                 </div>
@@ -40,7 +43,7 @@ const Sidebar = () => {
                     <p className="font-extralight">
                         we'll keep you update on new episodes
                     </p>
-                    <button className="px-4 py-1.5 bg-white text-black text-[15px] rounded-full mt-4">
+                    <button className="px-4 py-1.5 bg-white text-black text-[15px] rounded-full mt-4 hover:scale-[1.05] transition-transform duration-200 ease-linear">
                         Browse podcasts
                     </button>
                 </div>

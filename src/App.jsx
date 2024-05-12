@@ -4,7 +4,7 @@ import Player from "./components/Player"
 
 const App = () => {
     return (
-        <div className="h-screen bg-black font-montserrat">
+        <div className="h-screen bg-black font-montserrat text-base">
             <div className="h-[90%] flex">
                 <Sidebar />
             </div>

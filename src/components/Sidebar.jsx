@@ -34,7 +34,7 @@ const Sidebar = () => {
                     <p className="font-extralight">
                         it's easy we will help you
                     </p>
-                    <button className="px-4 py-1.5 bg-white text-black text-[15px] rounded-full mt-4 hover:scale-[1.05] transition-transform duration-200 ease-linear">
+                    <button className="px-4 py-1.5 bg-white text-black rounded-full mt-4 hover:scale-[1.05] transition-transform duration-200 ease-linear">
                         Create playlist
                     </button>
                 </div>
@@ -43,7 +43,7 @@ const Sidebar = () => {
                     <p className="font-extralight">
                         we'll keep you update on new episodes
                     </p>
-                    <button className="px-4 py-1.5 bg-white text-black text-[15px] rounded-full mt-4 hover:scale-[1.05] transition-transform duration-200 ease-linear">
+                    <button className="px-4 py-1.5 bg-white text-black rounded-full mt-4 hover:scale-[1.05] transition-transform duration-200 ease-linear">
                         Browse podcasts
                     </button>
                 </div>

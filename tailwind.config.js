@@ -9,6 +9,9 @@ export default {
       fontFamily: {
         montserrat: "'Montserrat', sans-serif"
       },
+      fontSize: {
+        base: "14px"
+      }
     },
   },
   plugins: [],
